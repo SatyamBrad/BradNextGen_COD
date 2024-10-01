@@ -18,8 +18,6 @@ function Extension() {
   const applyAttributeChange = useApplyAttributeChange();
   const [selectedPayment, setSelectedPayment] = useState("");
 
-
-
   const handlePaymentSelection = async (method) => {
     setSelectedPayment(method);
 
